@@ -68,6 +68,7 @@ def sign_selection():
       game_conditions()
     else:
       print("Please enter valid input.\n")
+      finalsign.clear()
       sign_selection()
     break
 
